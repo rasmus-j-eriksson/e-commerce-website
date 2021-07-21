@@ -1,7 +1,10 @@
 import React from 'react';
 import HomePage from './pages/homepage/homepage.component'
+import ShopPage from './pages/shop/shop.component'
+
 import { Route, Link, Switch } from 'react-router-dom';
 import './App.css'
+
 
 const HatsPage = (props) => {
   return <div>
@@ -42,7 +45,8 @@ function App() {
         <Route exact path='/shop/jackets' component={JacketsPage} />
         <Route exact path='/shop/mens' component={MensPage} />
         <Route exact path='/shop/womens' component={WomensPage} />
-        <Route exact path='/shop/sneakers' component={SneakersPage} />
+        <Route exact path='/shop/sneakers' component={SneakersPage } />
+        <Route exact path='/shop/' component={ShopPage } />
 
     </div>
   );
