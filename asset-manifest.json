@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.ad0051a7.chunk.css",
-    "main.js": "/static/js/main.b07f9829.chunk.js",
-    "main.js.map": "/static/js/main.b07f9829.chunk.js.map",
+    "main.css": "/static/css/main.37057f7c.chunk.css",
+    "main.js": "/static/js/main.a87f050f.chunk.js",
+    "main.js.map": "/static/js/main.a87f050f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.18abf8bf.js",
     "runtime-main.js.map": "/static/js/runtime-main.18abf8bf.js.map",
-    "static/js/2.5614bd28.chunk.js": "/static/js/2.5614bd28.chunk.js",
-    "static/js/2.5614bd28.chunk.js.map": "/static/js/2.5614bd28.chunk.js.map",
+    "static/js/2.f9b63b67.chunk.js": "/static/js/2.f9b63b67.chunk.js",
+    "static/js/2.f9b63b67.chunk.js.map": "/static/js/2.f9b63b67.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.ad0051a7.chunk.css.map": "/static/css/main.ad0051a7.chunk.css.map",
-    "static/js/2.5614bd28.chunk.js.LICENSE.txt": "/static/js/2.5614bd28.chunk.js.LICENSE.txt",
-    "static/media/crown.3df84211.svg": "/static/media/crown.3df84211.svg"
+    "static/css/main.37057f7c.chunk.css.map": "/static/css/main.37057f7c.chunk.css.map",
+    "static/js/2.f9b63b67.chunk.js.LICENSE.txt": "/static/js/2.f9b63b67.chunk.js.LICENSE.txt",
+    "static/media/crown.3df84211.svg": "/static/media/crown.3df84211.svg",
+    "static/media/shopping-bag.a688874f.svg": "/static/media/shopping-bag.a688874f.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.18abf8bf.js",
-    "static/js/2.5614bd28.chunk.js",
-    "static/css/main.ad0051a7.chunk.css",
-    "static/js/main.b07f9829.chunk.js"
+    "static/js/2.f9b63b67.chunk.js",
+    "static/css/main.37057f7c.chunk.css",
+    "static/js/main.a87f050f.chunk.js"
   ]
 }
