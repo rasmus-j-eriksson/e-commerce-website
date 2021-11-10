@@ -4,6 +4,7 @@ import { createStructuredSelector } from "reselect";
 import { selectCartItems, selectCartTotal } from "../../redux/cart/cart.selectors";
 import './checkout.styles.scss';
 import CheckoutItem from "../../components/checkout-item/checkout-item.component";
+import StripeCheckoutButton from "../../components/stripe-button/stripe-button.component";
 
 const CheckoutPage = ({ cartItems, total }) => (
     <div className='checkout-page'>
@@ -14,13 +15,22 @@ const CheckoutPage = ({ cartItems, total }) => (
             <div className='header-block'><span>Price</span></div>
             <div className='header-block'><span>Remove</span></div>
         </div>
-        
+
         {
-            cartItems.map(cartItem => (<CheckoutItem key={cartItem.id} cartItem={cartItem}/>))
+            cartItems.map(cartItem => (<CheckoutItem key={cartItem.id} cartItem={cartItem} />))
         }
 
         <div className='total'>TOTAL: ${total}
+
         </div>
+
+        <div className='test-warning'>
+            test card info: 4242 4242 4242 4242
+            <br/>
+            Exp: 10/22 Cvc:123
+        </div>
+
+        <StripeCheckoutButton price={total} />
     </div>
 )
 
