@@ -9,6 +9,11 @@ const INITIAL_STATE = {
 const shopReducer = (state = INITIAL_STATE, action) => {
 
     switch (action.type) {
+        case ShopActionTypes.GET_SHOP_ITEMS:
+            return {
+                ...state,
+                shopItem: state.collections.filter(collection => collection.routeName === action.payload).items
+            }
         default:
             return state;
     }
